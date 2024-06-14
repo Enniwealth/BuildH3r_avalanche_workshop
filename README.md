@@ -20,7 +20,6 @@ You can run them directly on Github by clicking **Code**, switching to the **Cod
 
 ### Run Dev Container locally with Docker
 
-Alternatively, you can run them locally. You need [docker](https://www.docker.com/products/docker-desktop/) installed and [VS Code](https://code.visualstudio.com/) with the extensions [Dev Container extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers). Then clone the repository and open it in VS Code. VS Code will ask you if you want to reopen the project in a container.
 
 ## Starting a local Avalanche Network
 
@@ -48,9 +47,4 @@ anothersubnet = "http://localhost:9650/ext/bc/BASE58_BLOCKCHAIN_ID/rpc"
 ```
 
 ## Code Examples
-- [0-send-receive](src/0-send-receive/_INSTRUCTIONS.md) 
-- [1-send-roundtrip](src/2-invoking-functions/_INSTRUCTIONS.md)
-- [2-invoking-functions](src/0-send-receive/_INSTRUCTIONS.md)
-- [3-registry](src/3-registry/_INSTRUCTIONS.md)
-- [4-creating-contracts](src/4-creating-contracts/_INSTRUCTIONS.md)
-- [x-erc721-bridge](src/x-erc721-bridge/Readme.md)
+- [send-and-receive](src/send-and-receive/_INSTRUCTIONS.md) 
